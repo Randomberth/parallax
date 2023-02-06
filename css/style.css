@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Styling the first parallax's height,
+width and background color*/
+.parallax-1 {
+    width: 100wh;
+    height:600px;
+    display: flex;
+    background: url('../img/1.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+/*Styling the title of first parallax*/
+.parallax-1 h2 {
+    margin: auto;
+    padding: 10px;
+    background-color: transparent;
+    color: whitesmoke;
+    text-align: center;
+}
+
+/*Styling the second parallax's height,
+width and background color*/
+.parallax-2 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background: url('../img/2.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: antiquewhite;
+}
+
+/*Styling the title of second parallax*/
+.parallax-2 h2 {
+ margin: auto;   
+ padding: 10px;
+ background-color:transparent;
+ color:blueviolet;
+ text-align: center;
+ font-size: 30px;
+ /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+}
+
+/*Styling the content of paragraaph*/
+.para-1 {
+    padding:50px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 17px;
+}
+
+/*Styling the content or paragraph*/
+.para-2 {
+    text-align: center;
+    padding: 25px;
+    font-size: 17px;
+    font-family: Verdana;
+    background-color: black;
+    color:white
+}
